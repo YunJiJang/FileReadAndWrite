@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
+
 namespace FileReadAndWrite
 {
     public partial class FormFile : Form
@@ -14,6 +15,11 @@ namespace FileReadAndWrite
         public FormFile()
         {
             InitializeComponent();
+        }
+
+        private void ToolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
